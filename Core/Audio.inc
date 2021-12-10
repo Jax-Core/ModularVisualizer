@@ -22,7 +22,7 @@ IfCondition=#Sec.Generate# = 0
 IfTrueAction=[!CommandMeasure PRM ListAudioDevices][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"]
 
 [Auto_Refresh:M]
-Ifmatchaction=[!CommandMeasure Crafter "[#VisualizerType]"][!Refresh "#Skin.Name#\Main"]
+OnUpdateAction=[!CommandMeasure Crafter "[#VisualizerType]"][!Refresh "#Skin.Name#\Main"]
 
 [PRM]
 Measure=Plugin
@@ -121,13 +121,13 @@ Y=([Option00:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [AnalyzerPort:0]
 Meter=String
 Text="Output"
-FontColor=([&Func:returnBool('AnalyzerPort', 'DefaultOutput')] = 1 ? 0 : 255),([&Func:returnBool('AnalyzerPort', 'DefaultOutput')] = 1 ? 0 : 255),([&Func:returnBool('AnalyzerPort', 'DefaultOutput')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('AnalyzerPort', 'DefaultOutput', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_0:S
 Leftmouseupaction=[!WriteKeyValue Variables AnalyzerPort "DefaultOutput" "#Sec.SaveLocation2#"][!WriteKeyValue Variables AnalyzerPortIsID "0" "#Sec.SaveLocation2#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!UpdateMeasure "Auto_Refresh:M"][!Refresh]
 [AnalyzerPort:1]
 Meter=String
 Text="Input"
-FontColor=([&Func:returnBool('AnalyzerPort', 'DefaultInput')] = 1 ? 0 : 255),([&Func:returnBool('AnalyzerPort', 'DefaultInput')] = 1 ? 0 : 255),([&Func:returnBool('AnalyzerPort', 'DefaultInput')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('AnalyzerPort', 'DefaultInput', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_1:S
 Leftmouseupaction=[!WriteKeyValue Variables AnalyzerPort "DefaultInput" "#Sec.SaveLocation2#"][!WriteKeyValue Variables AnalyzerPortIsID "0" "#Sec.SaveLocation2#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!UpdateMeasure "Auto_Refresh:M"][!Refresh]
 [AnalyzerPort:2]

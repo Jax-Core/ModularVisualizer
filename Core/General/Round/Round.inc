@@ -158,19 +158,19 @@ Y=([Option08:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [StartCap:0]
 Meter=String
 Text="Triangle"
-FontColor=([&Func:returnBool('StartCap', 'Triangle')] = 1 ? 0 : 255),([&Func:returnBool('StartCap', 'Triangle')] = 1 ? 0 : 255),([&Func:returnBool('StartCap', 'Triangle')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('StartCap', 'Triangle', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_0:S
 Leftmouseupaction=[!WriteKeyValue Variables StartCap "Triangle" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 [StartCap:1]
 Meter=String
 Text="Round"
-FontColor=([&Func:returnBool('StartCap', 'Round')] = 1 ? 0 : 255),([&Func:returnBool('StartCap', 'Round')] = 1 ? 0 : 255),([&Func:returnBool('StartCap', 'Round')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('StartCap', 'Round', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_1:S
 Leftmouseupaction=[!WriteKeyValue Variables StartCap "Round" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 [StartCap:2]
 Meter=String
 Text="Flat"
-FontColor=([&Func:returnBool('StartCap', 'Flat')] = 1 ? 0 : 255),([&Func:returnBool('StartCap', 'Flat')] = 1 ? 0 : 255),([&Func:returnBool('StartCap', 'Flat')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('StartCap', 'Flat', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_2:S
 Leftmouseupaction=[!WriteKeyValue Variables StartCap "Flat" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 
@@ -182,19 +182,19 @@ Y=([Option09:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [EndCap:0]
 Meter=String
 Text="Triangle"
-FontColor=([&Func:returnBool('EndCap', 'Triangle')] = 1 ? 0 : 255),([&Func:returnBool('EndCap', 'Triangle')] = 1 ? 0 : 255),([&Func:returnBool('EndCap', 'Triangle')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('EndCap', 'Triangle', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_0:S
 Leftmouseupaction=[!WriteKeyValue Variables EndCap "Triangle" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 [EndCap:1]
 Meter=String
 Text="Round"
-FontColor=([&Func:returnBool('EndCap', 'Round')] = 1 ? 0 : 255),([&Func:returnBool('EndCap', 'Round')] = 1 ? 0 : 255),([&Func:returnBool('EndCap', 'Round')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('EndCap', 'Round', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_1:S
 Leftmouseupaction=[!WriteKeyValue Variables EndCap "Round" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 [EndCap:2]
 Meter=String
 Text="Flat"
-FontColor=([&Func:returnBool('EndCap', 'Flat')] = 1 ? 0 : 255),([&Func:returnBool('EndCap', 'Flat')] = 1 ? 0 : 255),([&Func:returnBool('EndCap', 'Flat')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('EndCap', 'Flat', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_2:S
 Leftmouseupaction=[!WriteKeyValue Variables EndCap "Flat" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 

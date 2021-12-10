@@ -23,7 +23,7 @@ IfCondition=#Sec.Generate# = 1
 IfTrueAction=[!CommandMeasure Crafter "[#VisualizerType]"]
 
 [Auto_Refresh:M]
-Ifmatchaction=[!CommandMeasure Crafter "[#VisualizerType]"]
+OnUpdateAction=[!CommandMeasure Crafter "[#VisualizerType]"]
 
 ; ---------------------------------------------------------------------------- ;
 ;                                    Content                                   ;

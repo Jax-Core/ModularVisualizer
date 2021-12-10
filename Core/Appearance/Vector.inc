@@ -68,13 +68,13 @@ Y=([Option01:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [BarType:0]
 Meter=String
 Text=Solid
-FontColor=([&Func:returnBool('BarType', 'Gradient')] = 0 ? 0 : 255),([&Func:returnBool('BarType', 'Gradient')] = 0 ? 0 : 255),([&Func:returnBool('BarType', 'Gradient')] = 0 ? 0 : 255)
+FontColor=[&Func:returnBool('BarType', 'Gradient', '#Set.Text_Color#', '#Set.Pri_color#')]
 Leftmouseupaction=[!WriteKeyValue Variables BarType "Solid" "#Sec.SaveLocation2#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 MeterStyle=Set.String:S | Set.PickOption_0:S
 [BarType:1]
 Meter=String
 Text=Gradient
-FontColor=([&Func:returnBool('BarType', 'Gradient')] = 1 ? 0 : 255),([&Func:returnBool('BarType', 'Gradient')] = 1 ? 0 : 255),([&Func:returnBool('BarType', 'Gradient')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('BarType', 'Gradient', '#Set.Pri_color#', '#Set.Text_Color#')]
 Leftmouseupaction=[!WriteKeyValue Variables BarType "Gradient" "#Sec.SaveLocation2#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 MeterStyle=Set.String:S | Set.PickOption_1:S
 

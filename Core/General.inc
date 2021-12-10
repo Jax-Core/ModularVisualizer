@@ -23,7 +23,7 @@ IfCondition=#Sec.Generate# = 1
 IfTrueAction=[!CommandMeasure Crafter "[#VisualizerType]"]
 
 [Auto_Refresh:M]
-Ifmatchaction=[!CommandMeasure Crafter "[#VisualizerType]"][!Refresh "#Skin.Name#\Main"]
+OnUpdateAction=[!CommandMeasure Crafter "[#VisualizerType]"][!Refresh "#Skin.Name#\Main"]
 
 ; ---------------------------------------------------------------------------- ;
 ;                                    Content                                   ;
@@ -56,19 +56,19 @@ Y=([Option00:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [VisualizerType:0]
 Meter=String
 Text="Bar"
-FontColor=([&Func:returnBool('VisualizerType', 'Bar')] = 1 ? 0 : 255),([&Func:returnBool('VisualizerType', 'Bar')] = 1 ? 0 : 255),([&Func:returnBool('VisualizerType', 'Bar')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('VisualizerType', 'Bar', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_0:S
 Leftmouseupaction=[!WriteKeyValue Variables VisualizerType "Bar" "#Sec.SaveLocation2#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 [VisualizerType:1]
 Meter=String
 Text="Circle"
-FontColor=([&Func:returnBool('VisualizerType', 'Round')] = 1 ? 0 : 255),([&Func:returnBool('VisualizerType', 'Round')] = 1 ? 0 : 255),([&Func:returnBool('VisualizerType', 'Round')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('VisualizerType', 'Round', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_1:S
 Leftmouseupaction=[!WriteKeyValue Variables VisualizerType "Round" "#Sec.SaveLocation2#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 [VisualizerType:2]
 Meter=String
 Text="Vector"
-FontColor=([&Func:returnBool('VisualizerType', 'Vector')] = 1 ? 0 : 255),([&Func:returnBool('VisualizerType', 'Vector')] = 1 ? 0 : 255),([&Func:returnBool('VisualizerType', 'Vector')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('VisualizerType', 'Vector', '#Set.Pri_color#', '#Set.Text_Color#')]
 MeterStyle=Set.String:S | Set.PickOption3_2:S
 Leftmouseupaction=[!WriteKeyValue Variables VisualizerType "Vector" "#Sec.SaveLocation2#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 
