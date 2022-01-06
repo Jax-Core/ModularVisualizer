@@ -33,3 +33,4 @@ BarType=Solid
 Angle=0
 
 @includeVectorColors=Vector\[#BarType].inc
+ImageUnderlay=0

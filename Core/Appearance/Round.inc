@@ -154,7 +154,7 @@ Hidden=#ImageUnderlay#
 [LiveAlphaBool]
 Meter=Shape
 MeterStyle=Set.Bool:S
-X=([ContentContainer:W]/2-50*[Set.S]-#Set.P#/2)
+X=([ContentContainer:W]/2-60*[Set.S]-#Set.P#/2)
 Y=([Option02:Y]-#Set.P#+(-20/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
 
@@ -162,7 +162,7 @@ Hidden=#ImageUnderlay#
 Meter=Shape
 MeterStyle=Set.Textbox:S
 Type=Int|0|255
-X=([ContentContainer:W]/2-150*[Set.S]-#Set.P#/2)
+X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option03:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
 [Value03]
@@ -175,7 +175,7 @@ Hidden=#ImageUnderlay#
 Meter=Shape
 MeterStyle=Set.Textbox:S
 Type=Int|0|255
-X=([ContentContainer:W]/2-150*[Set.S]-#Set.P#/2)
+X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option04:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
 [Value04]
