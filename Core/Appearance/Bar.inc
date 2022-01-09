@@ -18,6 +18,13 @@ MeterStyle=Set.Div:S
 Hidden=#ImageUnderlay#
 
 ; -------------------------------- color boxes ------------------------------- ;
+[CPUI]
+Measure=Script
+ScriptFile=#SKINSPATH##Skin.Name#\Core\ColorPickerUI\ColorPickerUI.lua
+Animations=0
+Theme=Core
+OnFinishAction=[!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
+
 [Box]
 Shape=Rectangle  0,0,(([ContentContainer:W]-25*7*[Set.S])/7),(([ContentContainer:W]-25*7*[Set.S])/7),(#set.R#/2) | Stroke Color #Set.Text_Color# | Fill Color [#Color#CURRENTSECTION#] | Extend Fill
 Fill=StrokeWidth 0
@@ -25,7 +32,7 @@ X=((([ContentContainer:W]-25*7*[Set.S])/7)+20*[Set.S])r
 Y=r
 MouseOverAction=[!SetOption #CURRENTSECTION# Fill "StrokeWidth 2"][!UpdateMeter #CURRENTSECTION#][!Redraw]
 MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "StrokeWidth 0"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-Leftmouseupaction=["#@#Addons\RainRGB4.exe" "VarName=Color#CURRENTSECTION#" "FileName=#Sec.SaveLocation#" "RefreshConfig=#CURRENTCONFIG#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"]
+Leftmouseupaction=[&CPUI:SetColor('Color[#CURRENTSECTION]', 'Variables', 'rgb', '[#Sec.SaveLocation]')]
 DynamicVariables=1
 Hidden=#ImageUnderlay#
 Container=ContentContainer
@@ -161,7 +168,7 @@ Hidden=#ImageUnderlay#
 [MinAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option03:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
@@ -174,7 +181,7 @@ Hidden=#ImageUnderlay#
 [MaxAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option04:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
@@ -194,7 +201,7 @@ Hidden=#ImageUnderlay#
 [StrokeMinAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 Y=([Option06:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
 [Value06]
@@ -206,7 +213,7 @@ Hidden=#ImageUnderlay#
 [StrokeMaxAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 Y=([Option07:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
 [Value07]

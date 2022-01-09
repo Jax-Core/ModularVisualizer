@@ -23,7 +23,7 @@ IfCondition=#Sec.Generate# = 1
 IfTrueAction=[!CommandMeasure Crafter "[#VisualizerType]"]
 
 [Auto_Refresh:M]
-OnUpdateAction=[!CommandMeasure Crafter "[#VisualizerType]"][!Refresh "#Skin.Name#\Main"]
+OnUpdateAction=[!Delay 100][!CommandMeasure Crafter "[#VisualizerType]"][!Refresh "#Skin.Name#\Main"]
 
 [DragNDrop]
 Measure=Plugin

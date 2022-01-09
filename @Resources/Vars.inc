@@ -26,8 +26,8 @@ ImageUnderlay=0
 ImageUnderlayName=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Default.jfif
 ImageUnderlayFileName=Default
 
-DeviceName=Microphone (2- MAONO AU-BM10)
-DeviceID={0.0.1.00000000}.{93cb243a-ea98-4710-825f-c6aaef3a225b}
+DeviceName=Speakers (2- High Definition Audio Device)
+DeviceID={0.0.0.00000000}.{af349fad-faf2-40a5-b1d7-b54141112c39}
 
 BoostRate=0
 

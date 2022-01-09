@@ -161,7 +161,7 @@ Hidden=#ImageUnderlay#
 [MinAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option03:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
@@ -174,7 +174,7 @@ Hidden=#ImageUnderlay#
 [MaxAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option04:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
@@ -194,7 +194,7 @@ Hidden=#ImageUnderlay#
 [StrokeMinAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 Y=([Option06:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
 [Value06]
@@ -206,7 +206,7 @@ Hidden=#ImageUnderlay#
 [StrokeMaxAlpha]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|255
+Type=Int
 Y=([Option07:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Hidden=#ImageUnderlay#
 [Value07]
