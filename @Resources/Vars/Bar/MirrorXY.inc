@@ -29,10 +29,10 @@ Group4XOffset=0
 Group4YOffset=0
 
 ;?List | Name X-Flip | Options Group1,Group1XFlip; Group2,Group2XFlip; Group3,Group3XFlip; Group4,Group4XFlip
-Group1XFlip=0
-Group2XFlip=0
-Group3XFlip=0
-Group4XFlip=0
+Group1XFlip=1
+Group2XFlip=1
+Group3XFlip=1
+Group4XFlip=1
 
 ;?List | Name Y-Flip | Options Group1,Group1YFlip; Group2,Group2YFlip; Group3,Group3YFlip; Group4,Group4YFlip
 Group1YFlip=0
