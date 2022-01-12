@@ -136,7 +136,7 @@ Hidden=#ImageUnderlay#
 Meter=Shape
 MeterStyle=Set.Bool:S
 Y=([Option10:Y]-#Set.P#+(-20/2+8)*[Set.S])
-Leftmouseupaction=[!WriteKeyvalue Variables "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)" "#Sec.SaveLocation2#"][!SetVariable "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
+Leftmouseupaction=[!WriteKeyvalue Variables "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)" "#Sec.SaveLocation3#"][!SetVariable "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
 
 
 [ColorCount]

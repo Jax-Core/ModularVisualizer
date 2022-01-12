@@ -75,37 +75,30 @@ Meter=String
 Text="Visualizer live alpha"
 Y=((([ContentContainer:W]-25*7*[Set.S])/7)+20*[Set.S])r
 MeterStyle=Set.String:S | Set.OptionCat:S
-Hidden=#ImageUnderlay#
 [Option02]
 Meter=String
 X=r
 Text="Filling live alpha"
 MeterStyle=Set.String:S | Set.OptionName:S
-Hidden=#ImageUnderlay#
 [Set.Div:31238110]
 Meter=Shape
 MeterStyle=Set.Div:S
-Hidden=#ImageUnderlay#
 [Option03]
 Meter=String
 X=r
 Text="Minimum"
 MeterStyle=Set.String:S | Set.OptionName:S
-Hidden=#ImageUnderlay#
 [Set.Div:31238210]
 Meter=Shape
 MeterStyle=Set.Div:S
-Hidden=#ImageUnderlay#
 [Option04]
 Meter=String
 X=r
 Text="Maximum"
 MeterStyle=Set.String:S | Set.OptionName:S
-Hidden=#ImageUnderlay#
 [Set.Div:31238310]
 Meter=Shape
 MeterStyle=Set.Div:S
-Hidden=#ImageUnderlay#
 [Option05]
 Meter=String
 X=([ContentContainer:W]/2)
@@ -143,7 +136,7 @@ Hidden=#ImageUnderlay#
 Meter=Shape
 MeterStyle=Set.Bool:S
 Y=([Option10:Y]-#Set.P#+(-20/2+8)*[Set.S])
-Leftmouseupaction=[!WriteKeyvalue Variables "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)" "#Sec.SaveLocation2#"][!SetVariable "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
+Leftmouseupaction=[!WriteKeyvalue Variables "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)" "#Sec.SaveLocation3#"][!SetVariable "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
 
 
 [ColorCount]
@@ -163,7 +156,6 @@ Meter=Shape
 MeterStyle=Set.Bool:S
 X=([ContentContainer:W]/2-60*[Set.S]-#Set.P#/2)
 Y=([Option02:Y]-#Set.P#+(-20/2+8)*[Set.S])
-Hidden=#ImageUnderlay#
 
 [MinAlpha]
 Meter=Shape
@@ -171,12 +163,10 @@ MeterStyle=Set.Textbox:S
 Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option03:Y]-#Set.P#+(-30/2+8)*[Set.S])
-Hidden=#ImageUnderlay#
 [Value03]
 Meter=String
 Text="#MinAlpha#"
 MeterStyle=Set.String:S | Set.Value:S
-Hidden=#ImageUnderlay#
 
 [MaxAlpha]
 Meter=Shape
@@ -184,12 +174,10 @@ MeterStyle=Set.Textbox:S
 Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option04:Y]-#Set.P#+(-30/2+8)*[Set.S])
-Hidden=#ImageUnderlay#
 [Value04]
 Meter=String
 Text="#MaxAlpha#"
 MeterStyle=Set.String:S | Set.Value:S
-Hidden=#ImageUnderlay#
 
 
 [StrokeLiveAlpha]

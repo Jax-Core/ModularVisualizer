@@ -86,7 +86,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [Height]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|1|300
+Type=Int|0|1000
 Y=([Option02:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value02]
 Meter=String

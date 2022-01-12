@@ -1,40 +1,16 @@
 [Variables]
-;@ | Name MirrorXY
-
-;?Info | Name MirrorX | Description Settings for MirrorX | Link 0
- = 
-
-;?Integer | Name First X-Offset
 Group1XOffset=0
-
-;?Integer | Name First Y-Offset
 Group1YOffset=5
-
-;?Integer | Name Second X-Offset
-Group2XOffset=0
-
-;?Integer | Name Second Y-Offset
-Group2YOffset=5
-
-;?Integer | Name Third X-Offset
+Group2XOffset=-900
+Group2YOffset=50
 Group3XOffset=0
-
-;?Integer | Name Third Y-Offset
-Group3YOffset=0
-
-;?Integer | Name Fourth X-Offset
-Group4XOffset=0
-
-;?Integer | Name Fourth Y-Offset
-Group4YOffset=0
-
-;?List | Name X-Flip | Options Group1,Group1XFlip; Group2,Group2XFlip; Group3,Group3XFlip; Group4,Group4XFlip
+Group3YOffset=50
+Group4XOffset=-900
+Group4YOffset=100
 Group1XFlip=1
 Group2XFlip=1
 Group3XFlip=1
 Group4XFlip=1
-
-;?List | Name Y-Flip | Options Group1,Group1YFlip; Group2,Group2YFlip; Group3,Group3YFlip; Group4,Group4YFlip
 Group1YFlip=0
 Group2YFlip=0
 Group3YFlip=0

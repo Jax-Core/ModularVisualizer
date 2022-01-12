@@ -79,7 +79,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [Group1XOffset]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|-300|300
+Type=Int|-1920|1920
 Y=([Option11:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value11]
 Meter=String
@@ -89,7 +89,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [Group2XOffset]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|-300|300
+Type=Int|-1920|1920
 Y=([Option12:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value12]
 Meter=String
@@ -99,7 +99,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [Group1YOffset]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|-300|300
+Type=Int|-1920|1920
 Y=([Option13:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value13]
 Meter=String
@@ -109,7 +109,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [Group2YOffset]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|-300|300
+Type=Int|-1920|1920
 Y=([Option14:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value14]
 Meter=String

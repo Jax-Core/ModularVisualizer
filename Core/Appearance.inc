@@ -1,6 +1,6 @@
 [Variables]
 Sec.SaveLocation=#SKINSPATH##Skin.Name#\@Resources\Vars\Colors.inc
-Sec.SaveLocation2=#SKINSPATH##Skin.Name#\@Resources\Vars.inc
+Sec.SaveLocation3=#SKINSPATH##Skin.Name#\@Resources\Vars.inc
 Sec.Generate=0
 Sec.AnchorName=AnchorSuppli
 @includeVariables=#SKINSPATH##Skin.Name#\@Resources\Vars\[#VisualizerType].inc
@@ -29,7 +29,7 @@ OnUpdateAction=[!Delay 100][!CommandMeasure Crafter "[#VisualizerType]"][!Refres
 Measure=Plugin
 Plugin=Drag&Drop
 ; FilePath=#SKINSPATH#ModularVisualizer\@Resources\UserImages
-OnDropAction=[!SetVariable ImageUnderlayName "$Path$"][!WriteKeyValue Variables ImageUnderlayName "$Path$" "#Sec.SaveLocation2#"][!SetVariable ImageUnderlayFileName "$Name$"][!WriteKeyValue Variables ImageUnderlayFileName "$Name$" "#Sec.SaveLocation2#"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
+OnDropAction=[!SetVariable ImageUnderlayName "$Path$"][!WriteKeyValue Variables ImageUnderlayName "$Path$" "#Sec.SaveLocation3#"][!SetVariable ImageUnderlayFileName "$Name$"][!WriteKeyValue Variables ImageUnderlayFileName "$Name$" "#Sec.SaveLocation3#"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
 Disabled=(1-#ImageUnderlay#)
 
 [Choose:M]
@@ -42,7 +42,7 @@ GetIcon=0
 ReturnValue=WholePath
 FileInitialDirectory=#SKINSPATH#ModularVisualizer\@Resources\UserImages
 DynamicVariables=1
-Command1=[!SetVariable ImageUnderlayName "$Path$"][!WriteKeyValue Variables ImageUnderlayName "$Path$" "#Sec.SaveLocation2#"][!SetVariable ImageUnderlayFileName "$Name$"][!WriteKeyValue Variables ImageUnderlayFileName "$Name$" "#Sec.SaveLocation2#"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
+Command1=[!SetVariable ImageUnderlayName "$Path$"][!WriteKeyValue Variables ImageUnderlayName "$Path$" "#Sec.SaveLocation3#"][!SetVariable ImageUnderlayFileName "$Name$"][!WriteKeyValue Variables ImageUnderlayFileName "$Name$" "#Sec.SaveLocation3#"][!UpdateMeasure Auto_Refresh:M][!UpdateMeter *][!Redraw]
 Disabled=(1-#ImageUnderlay#)
 ; ---------------------------------------------------------------------------- ;
 ;                                    Content                                   ;
