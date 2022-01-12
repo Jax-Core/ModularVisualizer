@@ -95,3 +95,9 @@ MeterStyle=Select:S
 [Side]
 Meter=Image
 MeterStyle=Select:S
+
+[Layered]
+Meter=Image
+X=(20*[Set.S])
+Y=(20*[Set.S])R
+MeterStyle=Select:S
