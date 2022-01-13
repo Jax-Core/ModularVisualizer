@@ -3,6 +3,7 @@ Sec.SaveLocation=#SKINSPATH##Skin.Name#\@Resources\Vars\[#VisualizerType].inc
 Sec.SaveLocation2=#SKINSPATH##Skin.Name#\@Resources\Vars.inc
 Sec.Generate=0
 Sec.AnchorName=AnchorSuppli
+AutoActivateStatus=0
 @includeVariables=#SKINSPATH##Skin.Name#\@Resources\Vars\[#VisualizerType].inc
 @includeAnalyzer=#SKINSPATH##Skin.Name#\@Resources\Vars\AudioAnalyzerSettings.inc
 @includeColors=#SKINSPATH##Skin.Name#\@Resources\Vars\Colors.inc
@@ -25,13 +26,22 @@ IfTrueAction=[!CommandMeasure Crafter "[#VisualizerType]"]
 [Auto_Refresh:M]
 OnUpdateAction=[!CommandMeasure Crafter "[#VisualizerType]"][!Refresh "#Skin.Name#\Main"]
 
+
+[AutoActiveChecker]
+Measure=Plugin
+Plugin=ConfigActive
+ConfigName=#Skin.Name#\Accessories
+IfCondition=AutoActiveChecker = 1
+IfTrueAction=[!SetVariable AutoActivateStatus 1][!UpdateMeterGroup AutoActivateStatus][!Redraw]
+IfFalseAction=[!SetVariable AutoActivateStatus 0][!UpdateMeterGroup AutoActivateStatus][!Redraw]
+
 ; ---------------------------------------------------------------------------- ;
 ;                                    Content                                   ;
 ; ---------------------------------------------------------------------------- ;
 
 [PrefixTextHeader]
 Meter=String
-Text="Visualizer type"
+Text="Visualizer behavior"
 MeterStyle=Set.String:S | Set.OptionCat:S
 
 [Option00]
@@ -46,6 +56,14 @@ MeterStyle=Set.Div:S
 Meter=String
 X=r
 Text="Boost update rate"
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:31]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option0000]
+Meter=String
+X=r
+Text="Automatically toggle visualizer based on media status"
 MeterStyle=Set.String:S | Set.OptionName:S
 
 [VisualizerType:]
@@ -77,6 +95,16 @@ Meter=Shape
 MeterStyle=Set.Bool:S
 Y=([Option000:Y]-#Set.P#+(-20/2+8)*[Set.S])
 Leftmouseupaction=[!WriteKeyvalue Variables "#CURRENTSECTION#" "([##CURRENTSECTION#] = 1 ? 0 : 1)" "#Sec.SaveLocation2#"][!UpdateMeasure Auto_Refresh:M][!Refresh]
+
+[AutoActivateStatus]
+Meter=Shape
+MeterStyle=Set.Bool:S | AutoActivateStatus:#AutoActivateStatus#
+Y=([Option0000:Y]-#Set.P#+(-20/2+8)*[Set.S])
+Group=AutoActivateStatus
+[AutoActivateStatus:0]
+Leftmouseupaction=[!ActivateConfig "#Skin.Name#\Accessories"][!UpdateMeasure AutoActiveChecker]
+[AutoActivateStatus:1]
+Leftmouseupaction=[!DeactivateConfig "#Skin.Name#\Accessories"][!UpdateMeasure AutoActiveChecker]
 
 [dimensions]
 Meter=String

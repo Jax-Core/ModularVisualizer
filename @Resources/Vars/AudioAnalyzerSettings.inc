@@ -2,7 +2,7 @@
 MaxSensitivity=50
 MinSensitivity=3
 Attack=0
-Decay=100
-BlurRadius=2
+Decay=0
+BlurRadius=10
 Channel=Auto
 WindowFunction=Kaiser

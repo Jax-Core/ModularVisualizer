@@ -76,7 +76,7 @@ MeterStyle=Set.String:S | Set.OptionName:S
 [Bands]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|1|300
+Type=Int|1|9000
 Y=([Option01:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value01]
 Meter=String
@@ -86,7 +86,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [Height]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|1000
+Type=Int|0|9000
 Y=([Option02:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value02]
 Meter=String
@@ -96,7 +96,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [BarWidth]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|1|100
+Type=Int|1|9000
 Y=([Option03:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value03]
 Meter=String
@@ -106,7 +106,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [BarGap]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|100
+Type=Int|0|9000
 Y=([Option04:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value04]
 Meter=String
@@ -116,7 +116,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [BarStrokeWidth]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|20
+Type=Int|0|9000
 Y=([Option05:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value05]
 Meter=String
@@ -126,7 +126,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [CornerRounding]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|50
+Type=Int|0|9000
 Y=([Option06:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value06]
 Meter=String
@@ -136,7 +136,7 @@ MeterStyle=Set.String:S | Set.Value:S
 [Levitate]
 Meter=Shape
 MeterStyle=Set.Textbox:S
-Type=Int|0|100
+Type=Int|0|9000
 Y=([Option07:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Value07]
 Meter=String

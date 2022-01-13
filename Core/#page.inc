@@ -84,6 +84,22 @@ Text="Audio"
 DynamicVariables-1
 MeterStyle=Set.String:S | PageText:S
 
+[Addons]
+Meter=Shape
+Y=(10*[Set.S])R
+MeterStyle=PageBox:S
+Fill=Fill Color #Set.Accent_Color#,(#BarHandler# = 81 ? 255: 0)
+Handle=81
+[AddonsIcon]
+Meter=Image
+MeterStyle=PageIcon:S
+Greyscale=(#BarHandler# = 81 ? 1 : 0)
+[81]
+Meter=String
+Text="3D effect"
+DynamicVariables-1
+MeterStyle=Set.String:S | PageText:S
+
 [Render]
 Meter=Shape
 Y=(10*[Set.S])R

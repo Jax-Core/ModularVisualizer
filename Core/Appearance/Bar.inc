@@ -3,8 +3,8 @@
 Meter=String
 Text="Visualizer filling"
 Y=((180+40*#ImageUnderlay#)*[Set.S]+[HeaderImage:H])
-FontColor=#Set.Text_Color#,(#ImageUnderlay# = 1 ? 150 : 255)
 MeterStyle=Set.String:S | Set.OptionCat:S
+Hidden=#ImageUnderlay#
 
 [Option01]
 Meter=String
@@ -73,7 +73,7 @@ Hidden=(#ColorCount# < 7 || #ImageUnderlay# = 1 ? 1 : 0)
 [LiveAlpha]
 Meter=String
 Text="Visualizer live alpha"
-Y=((([ContentContainer:W]-25*7*[Set.S])/7)+20*[Set.S])r
+Y=((([ContentContainer:W]-25*7*[Set.S])/7)+20*[Set.S]-155*#ImageUnderlay#*[Set.S])r
 MeterStyle=Set.String:S | Set.OptionCat:S
 [Option02]
 Meter=String
@@ -127,6 +127,17 @@ Text="Maximum"
 MeterStyle=Set.String:S | Set.OptionName:S
 Hidden=#ImageUnderlay#
 
+[Stroke]
+Meter=String
+Text="Visualizer stroke"
+Y=(50*[Set.S])r
+MeterStyle=Set.String:S | Set.OptionCat:S
+Hidden=#ImageUnderlay#
+[Option21]
+Meter=String
+Text="Visualizer stroke color"
+MeterStyle=Set.String:S | Set.OptionName:S
+Hidden=#ImageUnderlay#
 ; ---------------------------------------------------------------------------- ;
 ;                                     Input                                    ;
 ; ---------------------------------------------------------------------------- ;
@@ -210,6 +221,11 @@ Text="#StrokeMaxAlpha#"
 MeterStyle=Set.String:S | Set.Value:S
 Hidden=#ImageUnderlay#
 
+[StrokeColor]
+Meter=Shape
+MeterStyle=Set.Color:S
+Y=([Option21:Y]-#Set.P#+(-30/2+8)*[Set.S])
+Hidden=#ImageUnderlay#
 
 ; ---------------------------------------------------------------------------- ;
 ;                                    Anchor                                    ;

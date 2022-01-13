@@ -1,7 +1,7 @@
 [Variables]
-VisualizerType=Bar
+VisualizerType=Round
 ImageUnderlay=0
-ImageUnderlayName=C:\Users\enhan\Documents\Rainmeter\Skins\ModularVisualizer\@Resources\UserImages\10825696.jpg
+ImageUnderlayName=C:\Users\enhan\Documents\Rainmeter\Skins\ModularVisualizer\@Resources\UserImages\Alena Aenami.jpg
 ImageUnderlayFileName=Alena Aenami
 DeviceName=Microphone (2- MAONO AU-BM10)
 DeviceID={0.0.1.00000000}.{93cb243a-ea98-4710-825f-c6aaef3a225b}

@@ -3,8 +3,8 @@
 Meter=String
 Text="Visualizer filling"
 Y=((180+40*#ImageUnderlay#)*[Set.S]+[HeaderImage:H])
-FontColor=#Set.Text_Color#,(#ImageUnderlay# = 1 ? 150 : 255)
 MeterStyle=Set.String:S | Set.OptionCat:S
+Hidden=#ImageUnderlay#
 
 [Option01]
 Meter=String
@@ -18,6 +18,13 @@ MeterStyle=Set.Div:S
 Hidden=#ImageUnderlay#
 
 ; -------------------------------- color boxes ------------------------------- ;
+[CPUI]
+Measure=Script
+ScriptFile=#SKINSPATH##Skin.Name#\Core\ColorPickerUI\ColorPickerUI.lua
+Animations=0
+Theme=Core
+OnFinishAction=[!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
+
 [Box]
 Shape=Rectangle  0,0,(([ContentContainer:W]-25*7*[Set.S])/7),(([ContentContainer:W]-25*7*[Set.S])/7),(#set.R#/2) | Stroke Color #Set.Text_Color# | Fill Color [#Color#CURRENTSECTION#] | Extend Fill
 Fill=StrokeWidth 0
@@ -25,7 +32,7 @@ X=((([ContentContainer:W]-25*7*[Set.S])/7)+20*[Set.S])r
 Y=r
 MouseOverAction=[!SetOption #CURRENTSECTION# Fill "StrokeWidth 2"][!UpdateMeter #CURRENTSECTION#][!Redraw]
 MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "StrokeWidth 0"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-Leftmouseupaction=["#@#Addons\RainRGB4.exe" "VarName=Color#CURRENTSECTION#" "FileName=#Sec.SaveLocation#" "RefreshConfig=#CURRENTCONFIG#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"]
+Leftmouseupaction=[&CPUI:SetColor('Color[#CURRENTSECTION]', 'Variables', 'rgb', '[#Sec.SaveLocation]')]
 DynamicVariables=1
 Hidden=#ImageUnderlay#
 Container=ContentContainer
@@ -66,39 +73,32 @@ Hidden=(#ColorCount# < 7 || #ImageUnderlay# = 1 ? 1 : 0)
 [LiveAlpha]
 Meter=String
 Text="Visualizer live alpha"
-Y=((([ContentContainer:W]-25*7*[Set.S])/7)+20*[Set.S])r
+Y=((([ContentContainer:W]-25*7*[Set.S])/7)+20*[Set.S]-155*#ImageUnderlay#*[Set.S])r
 MeterStyle=Set.String:S | Set.OptionCat:S
-Hidden=#ImageUnderlay#
 [Option02]
 Meter=String
 X=r
 Text="Filling live alpha"
 MeterStyle=Set.String:S | Set.OptionName:S
-Hidden=#ImageUnderlay#
 [Set.Div:31238110]
 Meter=Shape
 MeterStyle=Set.Div:S
-Hidden=#ImageUnderlay#
 [Option03]
 Meter=String
 X=r
 Text="Minimum"
 MeterStyle=Set.String:S | Set.OptionName:S
-Hidden=#ImageUnderlay#
 [Set.Div:31238210]
 Meter=Shape
 MeterStyle=Set.Div:S
-Hidden=#ImageUnderlay#
 [Option04]
 Meter=String
 X=r
 Text="Maximum"
 MeterStyle=Set.String:S | Set.OptionName:S
-Hidden=#ImageUnderlay#
 [Set.Div:31238310]
 Meter=Shape
 MeterStyle=Set.Div:S
-Hidden=#ImageUnderlay#
 [Option05]
 Meter=String
 X=([ContentContainer:W]/2)
@@ -127,6 +127,17 @@ Text="Maximum"
 MeterStyle=Set.String:S | Set.OptionName:S
 Hidden=#ImageUnderlay#
 
+[Stroke]
+Meter=String
+Text="Visualizer stroke"
+Y=(50*[Set.S])r
+MeterStyle=Set.String:S | Set.OptionCat:S
+Hidden=#ImageUnderlay#
+[Option21]
+Meter=String
+Text="Visualizer stroke color"
+MeterStyle=Set.String:S | Set.OptionName:S
+Hidden=#ImageUnderlay#
 ; ---------------------------------------------------------------------------- ;
 ;                                     Input                                    ;
 ; ---------------------------------------------------------------------------- ;
@@ -156,7 +167,6 @@ Meter=Shape
 MeterStyle=Set.Bool:S
 X=([ContentContainer:W]/2-60*[Set.S]-#Set.P#/2)
 Y=([Option02:Y]-#Set.P#+(-20/2+8)*[Set.S])
-Hidden=#ImageUnderlay#
 
 [MinAlpha]
 Meter=Shape
@@ -164,12 +174,10 @@ MeterStyle=Set.Textbox:S
 Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option03:Y]-#Set.P#+(-30/2+8)*[Set.S])
-Hidden=#ImageUnderlay#
 [Value03]
 Meter=String
 Text="#MinAlpha#"
 MeterStyle=Set.String:S | Set.Value:S
-Hidden=#ImageUnderlay#
 
 [MaxAlpha]
 Meter=Shape
@@ -177,12 +185,10 @@ MeterStyle=Set.Textbox:S
 Type=Int
 X=([ContentContainer:W]/2-200*[Set.S]-#Set.P#/2)
 Y=([Option04:Y]-#Set.P#+(-30/2+8)*[Set.S])
-Hidden=#ImageUnderlay#
 [Value04]
 Meter=String
 Text="#MaxAlpha#"
 MeterStyle=Set.String:S | Set.Value:S
-Hidden=#ImageUnderlay#
 
 
 [StrokeLiveAlpha]
@@ -215,6 +221,11 @@ Text="#StrokeMaxAlpha#"
 MeterStyle=Set.String:S | Set.Value:S
 Hidden=#ImageUnderlay#
 
+[StrokeColor]
+Meter=Shape
+MeterStyle=Set.Color:S
+Y=([Option21:Y]-#Set.P#+(-30/2+8)*[Set.S])
+Hidden=#ImageUnderlay#
 
 ; ---------------------------------------------------------------------------- ;
 ;                                    Anchor                                    ;

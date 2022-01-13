@@ -1,7 +1,9 @@
 [Variables]
-Image=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Layering.png
-Wallpaper=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Wallpaper.jpg
+ImagePath=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Layering.png
+ImageName=Layering
 X=-1
 Y=0
 W=1921
 H=1080
+Automated=0
+MonitorIndex=1

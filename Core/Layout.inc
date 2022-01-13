@@ -21,7 +21,7 @@ ScriptFile=#@#Lua\PresetLoad.lua
 [Select:S]
 X=(20*[Set.S])R
 Y=r
-W=([ContentContainer:W]/2-20*[Set.S])
+W=([ContentContainer:W]/3-20*[Set.S])
 ImageName=#SKINSPATH##Skin.Name#\Core\Layout\#CURRENTSECTIOn#.png
 DynamicVariables=1
 ImageAlpha=200
@@ -68,12 +68,6 @@ MeterStyle=Select:S
 
 [Regular]
 Meter=Image
-X=(20*[Set.S])
-Y=(20*[Set.S])R
-MeterStyle=Select:S
-
-[Chroma]
-Meter=Image
 MeterStyle=Select:S
 
 [Circ]
@@ -88,15 +82,9 @@ MeterStyle=Select:S
 
 [Tech]
 Meter=Image
-X=(20*[Set.S])
-Y=(20*[Set.S])R
 MeterStyle=Select:S
 
-[Side]
-Meter=Image
-MeterStyle=Select:S
-
-[Layered]
+[Smooth]
 Meter=Image
 X=(20*[Set.S])
 Y=(20*[Set.S])R
