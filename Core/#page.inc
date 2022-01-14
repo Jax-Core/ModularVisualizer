@@ -96,7 +96,7 @@ MeterStyle=PageIcon:S
 Greyscale=(#BarHandler# = 81 ? 1 : 0)
 [81]
 Meter=String
-Text="3D effect"
+Text="3D overlay"
 DynamicVariables-1
 MeterStyle=Set.String:S | PageText:S
 

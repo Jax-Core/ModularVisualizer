@@ -1,11 +1,11 @@
 [Variables]
 LayerCount=3
-VectorBands=8
-VectorWidth=800
+VectorBands=20
+VectorWidth=1920
 MinimumHeight=4
-Layer1Height=400
-Layer2Height=300
-Layer3Height=150
+Layer1Height=300
+Layer2Height=120
+Layer3Height=50
 Layer4Height=50
 BarType=Solid
 Angle=0

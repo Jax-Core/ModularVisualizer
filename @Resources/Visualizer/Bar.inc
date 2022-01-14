@@ -2,247 +2,157 @@
 [Shape]
 Meter=Shape
 DynamicVariables=1
-W=633.567675943147
-H=633.567675943147
-TransformationMatrix=0.707106781186548;0.707106781186547;-0.707106781186547;0.707106781186548;145.663996924429;0
+W=445
+H=720
+TransformationMatrix=1;0;0;1;0;0
 
-Shape=Rectangle 0, (48+(-1*(20)*[Measure30])), 23, (-1*(23+0*[Measure30])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure30]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape=Rectangle 0, (350+(-1*(40)*[Measure1])), 10, (-1*(10+300*[Measure1])), 4 | Fill Color 234,234,234 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape2=Rectangle 23, (48+(-1*(20)*[Measure29])), 23, (-1*(23+0*[Measure29])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure29]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape2=Rectangle 15, (350+(-1*(40)*[Measure2])), 10, (-1*(10+300*[Measure2])), 4 | Fill Color 234.7,234.7,234.7 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape3=Rectangle 46, (48+(-1*(20)*[Measure28])), 23, (-1*(23+0*[Measure28])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure28]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape3=Rectangle 30, (350+(-1*(40)*[Measure3])), 10, (-1*(10+300*[Measure3])), 4 | Fill Color 235.4,235.4,235.4 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape4=Rectangle 69, (48+(-1*(20)*[Measure27])), 23, (-1*(23+0*[Measure27])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure27]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape4=Rectangle 45, (350+(-1*(40)*[Measure4])), 10, (-1*(10+300*[Measure4])), 4 | Fill Color 236.1,236.1,236.1 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape5=Rectangle 92, (48+(-1*(20)*[Measure26])), 23, (-1*(23+0*[Measure26])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure26]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape5=Rectangle 60, (350+(-1*(40)*[Measure5])), 10, (-1*(10+300*[Measure5])), 4 | Fill Color 236.8,236.8,236.8 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape6=Rectangle 115, (48+(-1*(20)*[Measure25])), 23, (-1*(23+0*[Measure25])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure25]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape6=Rectangle 75, (350+(-1*(40)*[Measure6])), 10, (-1*(10+300*[Measure6])), 4 | Fill Color 237.5,237.5,237.5 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape7=Rectangle 138, (48+(-1*(20)*[Measure24])), 23, (-1*(23+0*[Measure24])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure24]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape7=Rectangle 90, (350+(-1*(40)*[Measure7])), 10, (-1*(10+300*[Measure7])), 4 | Fill Color 238.2,238.2,238.2 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape8=Rectangle 161, (48+(-1*(20)*[Measure23])), 23, (-1*(23+0*[Measure23])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure23]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape8=Rectangle 105, (350+(-1*(40)*[Measure8])), 10, (-1*(10+300*[Measure8])), 4 | Fill Color 238.9,238.9,238.9 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape9=Rectangle 184, (48+(-1*(20)*[Measure22])), 23, (-1*(23+0*[Measure22])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure22]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape9=Rectangle 120, (350+(-1*(40)*[Measure9])), 10, (-1*(10+300*[Measure9])), 4 | Fill Color 239.6,239.6,239.6 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape10=Rectangle 207, (48+(-1*(20)*[Measure21])), 23, (-1*(23+0*[Measure21])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure21]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape10=Rectangle 135, (350+(-1*(40)*[Measure10])), 10, (-1*(10+300*[Measure10])), 4 | Fill Color 240.3,240.3,240.3 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape11=Rectangle 230, (48+(-1*(20)*[Measure20])), 23, (-1*(23+0*[Measure20])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure20]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape11=Rectangle 150, (350+(-1*(40)*[Measure11])), 10, (-1*(10+300*[Measure11])), 4 | Fill Color 241,241,241 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape12=Rectangle 253, (48+(-1*(20)*[Measure19])), 23, (-1*(23+0*[Measure19])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure19]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape12=Rectangle 165, (350+(-1*(40)*[Measure12])), 10, (-1*(10+300*[Measure12])), 4 | Fill Color 241.7,241.7,241.7 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape13=Rectangle 276, (48+(-1*(20)*[Measure18])), 23, (-1*(23+0*[Measure18])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure18]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape13=Rectangle 180, (350+(-1*(40)*[Measure13])), 10, (-1*(10+300*[Measure13])), 4 | Fill Color 242.4,242.4,242.4 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape14=Rectangle 299, (48+(-1*(20)*[Measure17])), 23, (-1*(23+0*[Measure17])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure17]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape14=Rectangle 195, (350+(-1*(40)*[Measure14])), 10, (-1*(10+300*[Measure14])), 4 | Fill Color 243.1,243.1,243.1 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape15=Rectangle 322, (48+(-1*(20)*[Measure16])), 23, (-1*(23+0*[Measure16])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure16]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape15=Rectangle 210, (350+(-1*(40)*[Measure15])), 10, (-1*(10+300*[Measure15])), 4 | Fill Color 243.8,243.8,243.8 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape16=Rectangle 345, (48+(-1*(20)*[Measure15])), 23, (-1*(23+0*[Measure15])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure15]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape16=Rectangle 225, (350+(-1*(40)*[Measure16])), 10, (-1*(10+300*[Measure16])), 4 | Fill Color 244.5,244.5,244.5 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape17=Rectangle 368, (48+(-1*(20)*[Measure14])), 23, (-1*(23+0*[Measure14])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure14]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape17=Rectangle 240, (350+(-1*(40)*[Measure17])), 10, (-1*(10+300*[Measure17])), 4 | Fill Color 245.2,245.2,245.2 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape18=Rectangle 391, (48+(-1*(20)*[Measure13])), 23, (-1*(23+0*[Measure13])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure13]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape18=Rectangle 255, (350+(-1*(40)*[Measure18])), 10, (-1*(10+300*[Measure18])), 4 | Fill Color 245.9,245.9,245.9 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape19=Rectangle 414, (48+(-1*(20)*[Measure12])), 23, (-1*(23+0*[Measure12])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure12]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape19=Rectangle 270, (350+(-1*(40)*[Measure19])), 10, (-1*(10+300*[Measure19])), 4 | Fill Color 246.6,246.6,246.6 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape20=Rectangle 437, (48+(-1*(20)*[Measure11])), 23, (-1*(23+0*[Measure11])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure11]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape20=Rectangle 285, (350+(-1*(40)*[Measure20])), 10, (-1*(10+300*[Measure20])), 4 | Fill Color 247.3,247.3,247.3 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape21=Rectangle 460, (48+(-1*(20)*[Measure10])), 23, (-1*(23+0*[Measure10])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure10]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape21=Rectangle 300, (350+(-1*(40)*[Measure21])), 10, (-1*(10+300*[Measure21])), 4 | Fill Color 248,248,248 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape22=Rectangle 483, (48+(-1*(20)*[Measure9])), 23, (-1*(23+0*[Measure9])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure9]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape22=Rectangle 315, (350+(-1*(40)*[Measure22])), 10, (-1*(10+300*[Measure22])), 4 | Fill Color 248.7,248.7,248.7 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape23=Rectangle 506, (48+(-1*(20)*[Measure8])), 23, (-1*(23+0*[Measure8])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure8]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape23=Rectangle 330, (350+(-1*(40)*[Measure23])), 10, (-1*(10+300*[Measure23])), 4 | Fill Color 249.4,249.4,249.4 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape24=Rectangle 529, (48+(-1*(20)*[Measure7])), 23, (-1*(23+0*[Measure7])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure7]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape24=Rectangle 345, (350+(-1*(40)*[Measure24])), 10, (-1*(10+300*[Measure24])), 4 | Fill Color 250.1,250.1,250.1 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape25=Rectangle 552, (48+(-1*(20)*[Measure6])), 23, (-1*(23+0*[Measure6])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure6]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape25=Rectangle 360, (350+(-1*(40)*[Measure25])), 10, (-1*(10+300*[Measure25])), 4 | Fill Color 250.8,250.8,250.8 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape26=Rectangle 575, (48+(-1*(20)*[Measure5])), 23, (-1*(23+0*[Measure5])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure5]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape26=Rectangle 375, (350+(-1*(40)*[Measure26])), 10, (-1*(10+300*[Measure26])), 4 | Fill Color 251.5,251.5,251.5 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape27=Rectangle 598, (48+(-1*(20)*[Measure4])), 23, (-1*(23+0*[Measure4])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure4]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape27=Rectangle 390, (350+(-1*(40)*[Measure27])), 10, (-1*(10+300*[Measure27])), 4 | Fill Color 252.2,252.2,252.2 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape28=Rectangle 621, (48+(-1*(20)*[Measure3])), 23, (-1*(23+0*[Measure3])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure3]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape28=Rectangle 405, (350+(-1*(40)*[Measure28])), 10, (-1*(10+300*[Measure28])), 4 | Fill Color 252.9,252.9,252.9 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape29=Rectangle 644, (48+(-1*(20)*[Measure2])), 23, (-1*(23+0*[Measure2])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure2]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape29=Rectangle 420, (350+(-1*(40)*[Measure29])), 10, (-1*(10+300*[Measure29])), 4 | Fill Color 253.6,253.6,253.6 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape30=Rectangle 667, (48+(-1*(20)*[Measure1])), 23, (-1*(23+0*[Measure1])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure1]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape30=Rectangle 435, (350+(-1*(40)*[Measure30])), 10, (-1*(10+300*[Measure30])), 4 | Fill Color 254.3,254.3,254.3 | StrokeWidth 0 | Stroke Color 0,0,0
 
-Shape31=Rectangle -210, (83+(-1*(20)*[Measure1])), 23, (-1*(23+0*[Measure1])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure1]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape31=Rectangle 0, (370+(1*(40)*[Measure1])), 10, (1*(10+300*[Measure1])), 4 | Fill LinearGradient Gradient31  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient31=90 | 234,234,234,0;0.0 | 234,234,234,0;0.5 | 234,234,234,150;1.0
 
-Shape32=Rectangle -187, (83+(-1*(20)*[Measure2])), 23, (-1*(23+0*[Measure2])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure2]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape32=Rectangle 15, (370+(1*(40)*[Measure2])), 10, (1*(10+300*[Measure2])), 4 | Fill LinearGradient Gradient32  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient32=90 | 234.7,234.7,234.7,0;0.0 | 234.7,234.7,234.7,0;0.5 | 234.7,234.7,234.7,150;1.0
 
-Shape33=Rectangle -164, (83+(-1*(20)*[Measure3])), 23, (-1*(23+0*[Measure3])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure3]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape33=Rectangle 30, (370+(1*(40)*[Measure3])), 10, (1*(10+300*[Measure3])), 4 | Fill LinearGradient Gradient33  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient33=90 | 235.4,235.4,235.4,0;0.0 | 235.4,235.4,235.4,0;0.5 | 235.4,235.4,235.4,150;1.0
 
-Shape34=Rectangle -141, (83+(-1*(20)*[Measure4])), 23, (-1*(23+0*[Measure4])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure4]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape34=Rectangle 45, (370+(1*(40)*[Measure4])), 10, (1*(10+300*[Measure4])), 4 | Fill LinearGradient Gradient34  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient34=90 | 236.1,236.1,236.1,0;0.0 | 236.1,236.1,236.1,0;0.5 | 236.1,236.1,236.1,150;1.0
 
-Shape35=Rectangle -118, (83+(-1*(20)*[Measure5])), 23, (-1*(23+0*[Measure5])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure5]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape35=Rectangle 60, (370+(1*(40)*[Measure5])), 10, (1*(10+300*[Measure5])), 4 | Fill LinearGradient Gradient35  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient35=90 | 236.8,236.8,236.8,0;0.0 | 236.8,236.8,236.8,0;0.5 | 236.8,236.8,236.8,150;1.0
 
-Shape36=Rectangle -95, (83+(-1*(20)*[Measure6])), 23, (-1*(23+0*[Measure6])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure6]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape36=Rectangle 75, (370+(1*(40)*[Measure6])), 10, (1*(10+300*[Measure6])), 4 | Fill LinearGradient Gradient36  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient36=90 | 237.5,237.5,237.5,0;0.0 | 237.5,237.5,237.5,0;0.5 | 237.5,237.5,237.5,150;1.0
 
-Shape37=Rectangle -72, (83+(-1*(20)*[Measure7])), 23, (-1*(23+0*[Measure7])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure7]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape37=Rectangle 90, (370+(1*(40)*[Measure7])), 10, (1*(10+300*[Measure7])), 4 | Fill LinearGradient Gradient37  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient37=90 | 238.2,238.2,238.2,0;0.0 | 238.2,238.2,238.2,0;0.5 | 238.2,238.2,238.2,150;1.0
 
-Shape38=Rectangle -49, (83+(-1*(20)*[Measure8])), 23, (-1*(23+0*[Measure8])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure8]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape38=Rectangle 105, (370+(1*(40)*[Measure8])), 10, (1*(10+300*[Measure8])), 4 | Fill LinearGradient Gradient38  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient38=90 | 238.9,238.9,238.9,0;0.0 | 238.9,238.9,238.9,0;0.5 | 238.9,238.9,238.9,150;1.0
 
-Shape39=Rectangle -26, (83+(-1*(20)*[Measure9])), 23, (-1*(23+0*[Measure9])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure9]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape39=Rectangle 120, (370+(1*(40)*[Measure9])), 10, (1*(10+300*[Measure9])), 4 | Fill LinearGradient Gradient39  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient39=90 | 239.6,239.6,239.6,0;0.0 | 239.6,239.6,239.6,0;0.5 | 239.6,239.6,239.6,150;1.0
 
-Shape40=Rectangle -3, (83+(-1*(20)*[Measure10])), 23, (-1*(23+0*[Measure10])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure10]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape40=Rectangle 135, (370+(1*(40)*[Measure10])), 10, (1*(10+300*[Measure10])), 4 | Fill LinearGradient Gradient40  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient40=90 | 240.3,240.3,240.3,0;0.0 | 240.3,240.3,240.3,0;0.5 | 240.3,240.3,240.3,150;1.0
 
-Shape41=Rectangle 20, (83+(-1*(20)*[Measure11])), 23, (-1*(23+0*[Measure11])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure11]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape41=Rectangle 150, (370+(1*(40)*[Measure11])), 10, (1*(10+300*[Measure11])), 4 | Fill LinearGradient Gradient41  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient41=90 | 241,241,241,0;0.0 | 241,241,241,0;0.5 | 241,241,241,150;1.0
 
-Shape42=Rectangle 43, (83+(-1*(20)*[Measure12])), 23, (-1*(23+0*[Measure12])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure12]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape42=Rectangle 165, (370+(1*(40)*[Measure12])), 10, (1*(10+300*[Measure12])), 4 | Fill LinearGradient Gradient42  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient42=90 | 241.7,241.7,241.7,0;0.0 | 241.7,241.7,241.7,0;0.5 | 241.7,241.7,241.7,150;1.0
 
-Shape43=Rectangle 66, (83+(-1*(20)*[Measure13])), 23, (-1*(23+0*[Measure13])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure13]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape43=Rectangle 180, (370+(1*(40)*[Measure13])), 10, (1*(10+300*[Measure13])), 4 | Fill LinearGradient Gradient43  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient43=90 | 242.4,242.4,242.4,0;0.0 | 242.4,242.4,242.4,0;0.5 | 242.4,242.4,242.4,150;1.0
 
-Shape44=Rectangle 89, (83+(-1*(20)*[Measure14])), 23, (-1*(23+0*[Measure14])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure14]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape44=Rectangle 195, (370+(1*(40)*[Measure14])), 10, (1*(10+300*[Measure14])), 4 | Fill LinearGradient Gradient44  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient44=90 | 243.1,243.1,243.1,0;0.0 | 243.1,243.1,243.1,0;0.5 | 243.1,243.1,243.1,150;1.0
 
-Shape45=Rectangle 112, (83+(-1*(20)*[Measure15])), 23, (-1*(23+0*[Measure15])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure15]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape45=Rectangle 210, (370+(1*(40)*[Measure15])), 10, (1*(10+300*[Measure15])), 4 | Fill LinearGradient Gradient45  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient45=90 | 243.8,243.8,243.8,0;0.0 | 243.8,243.8,243.8,0;0.5 | 243.8,243.8,243.8,150;1.0
 
-Shape46=Rectangle 135, (83+(-1*(20)*[Measure16])), 23, (-1*(23+0*[Measure16])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure16]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape46=Rectangle 225, (370+(1*(40)*[Measure16])), 10, (1*(10+300*[Measure16])), 4 | Fill LinearGradient Gradient46  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient46=90 | 244.5,244.5,244.5,0;0.0 | 244.5,244.5,244.5,0;0.5 | 244.5,244.5,244.5,150;1.0
 
-Shape47=Rectangle 158, (83+(-1*(20)*[Measure17])), 23, (-1*(23+0*[Measure17])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure17]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape47=Rectangle 240, (370+(1*(40)*[Measure17])), 10, (1*(10+300*[Measure17])), 4 | Fill LinearGradient Gradient47  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient47=90 | 245.2,245.2,245.2,0;0.0 | 245.2,245.2,245.2,0;0.5 | 245.2,245.2,245.2,150;1.0
 
-Shape48=Rectangle 181, (83+(-1*(20)*[Measure18])), 23, (-1*(23+0*[Measure18])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure18]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape48=Rectangle 255, (370+(1*(40)*[Measure18])), 10, (1*(10+300*[Measure18])), 4 | Fill LinearGradient Gradient48  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient48=90 | 245.9,245.9,245.9,0;0.0 | 245.9,245.9,245.9,0;0.5 | 245.9,245.9,245.9,150;1.0
 
-Shape49=Rectangle 204, (83+(-1*(20)*[Measure19])), 23, (-1*(23+0*[Measure19])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure19]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape49=Rectangle 270, (370+(1*(40)*[Measure19])), 10, (1*(10+300*[Measure19])), 4 | Fill LinearGradient Gradient49  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient49=90 | 246.6,246.6,246.6,0;0.0 | 246.6,246.6,246.6,0;0.5 | 246.6,246.6,246.6,150;1.0
 
-Shape50=Rectangle 227, (83+(-1*(20)*[Measure20])), 23, (-1*(23+0*[Measure20])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure20]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape50=Rectangle 285, (370+(1*(40)*[Measure20])), 10, (1*(10+300*[Measure20])), 4 | Fill LinearGradient Gradient50  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient50=90 | 247.3,247.3,247.3,0;0.0 | 247.3,247.3,247.3,0;0.5 | 247.3,247.3,247.3,150;1.0
 
-Shape51=Rectangle 250, (83+(-1*(20)*[Measure21])), 23, (-1*(23+0*[Measure21])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure21]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape51=Rectangle 300, (370+(1*(40)*[Measure21])), 10, (1*(10+300*[Measure21])), 4 | Fill LinearGradient Gradient51  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient51=90 | 248,248,248,0;0.0 | 248,248,248,0;0.5 | 248,248,248,150;1.0
 
-Shape52=Rectangle 273, (83+(-1*(20)*[Measure22])), 23, (-1*(23+0*[Measure22])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure22]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape52=Rectangle 315, (370+(1*(40)*[Measure22])), 10, (1*(10+300*[Measure22])), 4 | Fill LinearGradient Gradient52  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient52=90 | 248.7,248.7,248.7,0;0.0 | 248.7,248.7,248.7,0;0.5 | 248.7,248.7,248.7,150;1.0
 
-Shape53=Rectangle 296, (83+(-1*(20)*[Measure23])), 23, (-1*(23+0*[Measure23])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure23]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape53=Rectangle 330, (370+(1*(40)*[Measure23])), 10, (1*(10+300*[Measure23])), 4 | Fill LinearGradient Gradient53  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient53=90 | 249.4,249.4,249.4,0;0.0 | 249.4,249.4,249.4,0;0.5 | 249.4,249.4,249.4,150;1.0
 
-Shape54=Rectangle 319, (83+(-1*(20)*[Measure24])), 23, (-1*(23+0*[Measure24])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure24]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape54=Rectangle 345, (370+(1*(40)*[Measure24])), 10, (1*(10+300*[Measure24])), 4 | Fill LinearGradient Gradient54  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient54=90 | 250.1,250.1,250.1,0;0.0 | 250.1,250.1,250.1,0;0.5 | 250.1,250.1,250.1,150;1.0
 
-Shape55=Rectangle 342, (83+(-1*(20)*[Measure25])), 23, (-1*(23+0*[Measure25])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure25]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape55=Rectangle 360, (370+(1*(40)*[Measure25])), 10, (1*(10+300*[Measure25])), 4 | Fill LinearGradient Gradient55  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient55=90 | 250.8,250.8,250.8,0;0.0 | 250.8,250.8,250.8,0;0.5 | 250.8,250.8,250.8,150;1.0
 
-Shape56=Rectangle 365, (83+(-1*(20)*[Measure26])), 23, (-1*(23+0*[Measure26])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure26]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape56=Rectangle 375, (370+(1*(40)*[Measure26])), 10, (1*(10+300*[Measure26])), 4 | Fill LinearGradient Gradient56  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient56=90 | 251.5,251.5,251.5,0;0.0 | 251.5,251.5,251.5,0;0.5 | 251.5,251.5,251.5,150;1.0
 
-Shape57=Rectangle 388, (83+(-1*(20)*[Measure27])), 23, (-1*(23+0*[Measure27])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure27]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape57=Rectangle 390, (370+(1*(40)*[Measure27])), 10, (1*(10+300*[Measure27])), 4 | Fill LinearGradient Gradient57  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient57=90 | 252.2,252.2,252.2,0;0.0 | 252.2,252.2,252.2,0;0.5 | 252.2,252.2,252.2,150;1.0
 
-Shape58=Rectangle 411, (83+(-1*(20)*[Measure28])), 23, (-1*(23+0*[Measure28])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure28]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape58=Rectangle 405, (370+(1*(40)*[Measure28])), 10, (1*(10+300*[Measure28])), 4 | Fill LinearGradient Gradient58  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient58=90 | 252.9,252.9,252.9,0;0.0 | 252.9,252.9,252.9,0;0.5 | 252.9,252.9,252.9,150;1.0
 
-Shape59=Rectangle 434, (83+(-1*(20)*[Measure29])), 23, (-1*(23+0*[Measure29])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure29]) | StrokeWidth 0 | Stroke Color 26,255,241
+Shape59=Rectangle 420, (370+(1*(40)*[Measure29])), 10, (1*(10+300*[Measure29])), 4 | Fill LinearGradient Gradient59  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient59=90 | 253.6,253.6,253.6,0;0.0 | 253.6,253.6,253.6,0;0.5 | 253.6,253.6,253.6,150;1.0
 
-Shape60=Rectangle 457, (83+(-1*(20)*[Measure30])), 23, (-1*(23+0*[Measure30])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure30]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape61=Rectangle 0, (83+(1*(20)*[Measure30])), 23, (1*(23+0*[Measure30])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure30]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape62=Rectangle 23, (83+(1*(20)*[Measure29])), 23, (1*(23+0*[Measure29])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure29]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape63=Rectangle 46, (83+(1*(20)*[Measure28])), 23, (1*(23+0*[Measure28])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure28]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape64=Rectangle 69, (83+(1*(20)*[Measure27])), 23, (1*(23+0*[Measure27])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure27]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape65=Rectangle 92, (83+(1*(20)*[Measure26])), 23, (1*(23+0*[Measure26])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure26]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape66=Rectangle 115, (83+(1*(20)*[Measure25])), 23, (1*(23+0*[Measure25])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure25]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape67=Rectangle 138, (83+(1*(20)*[Measure24])), 23, (1*(23+0*[Measure24])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure24]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape68=Rectangle 161, (83+(1*(20)*[Measure23])), 23, (1*(23+0*[Measure23])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure23]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape69=Rectangle 184, (83+(1*(20)*[Measure22])), 23, (1*(23+0*[Measure22])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure22]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape70=Rectangle 207, (83+(1*(20)*[Measure21])), 23, (1*(23+0*[Measure21])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure21]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape71=Rectangle 230, (83+(1*(20)*[Measure20])), 23, (1*(23+0*[Measure20])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure20]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape72=Rectangle 253, (83+(1*(20)*[Measure19])), 23, (1*(23+0*[Measure19])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure19]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape73=Rectangle 276, (83+(1*(20)*[Measure18])), 23, (1*(23+0*[Measure18])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure18]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape74=Rectangle 299, (83+(1*(20)*[Measure17])), 23, (1*(23+0*[Measure17])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure17]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape75=Rectangle 322, (83+(1*(20)*[Measure16])), 23, (1*(23+0*[Measure16])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure16]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape76=Rectangle 345, (83+(1*(20)*[Measure15])), 23, (1*(23+0*[Measure15])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure15]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape77=Rectangle 368, (83+(1*(20)*[Measure14])), 23, (1*(23+0*[Measure14])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure14]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape78=Rectangle 391, (83+(1*(20)*[Measure13])), 23, (1*(23+0*[Measure13])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure13]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape79=Rectangle 414, (83+(1*(20)*[Measure12])), 23, (1*(23+0*[Measure12])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure12]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape80=Rectangle 437, (83+(1*(20)*[Measure11])), 23, (1*(23+0*[Measure11])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure11]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape81=Rectangle 460, (83+(1*(20)*[Measure10])), 23, (1*(23+0*[Measure10])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure10]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape82=Rectangle 483, (83+(1*(20)*[Measure9])), 23, (1*(23+0*[Measure9])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure9]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape83=Rectangle 506, (83+(1*(20)*[Measure8])), 23, (1*(23+0*[Measure8])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure8]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape84=Rectangle 529, (83+(1*(20)*[Measure7])), 23, (1*(23+0*[Measure7])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure7]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape85=Rectangle 552, (83+(1*(20)*[Measure6])), 23, (1*(23+0*[Measure6])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure6]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape86=Rectangle 575, (83+(1*(20)*[Measure5])), 23, (1*(23+0*[Measure5])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure5]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape87=Rectangle 598, (83+(1*(20)*[Measure4])), 23, (1*(23+0*[Measure4])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure4]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape88=Rectangle 621, (83+(1*(20)*[Measure3])), 23, (1*(23+0*[Measure3])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure3]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape89=Rectangle 644, (83+(1*(20)*[Measure2])), 23, (1*(23+0*[Measure2])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure2]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape90=Rectangle 667, (83+(1*(20)*[Measure1])), 23, (1*(23+0*[Measure1])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure1]) | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape91=Rectangle -210, (123+(1*(20)*[Measure1])), 23, (1*(23+0*[Measure1])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure1]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape92=Rectangle -187, (123+(1*(20)*[Measure2])), 23, (1*(23+0*[Measure2])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure2]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape93=Rectangle -164, (123+(1*(20)*[Measure3])), 23, (1*(23+0*[Measure3])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure3]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape94=Rectangle -141, (123+(1*(20)*[Measure4])), 23, (1*(23+0*[Measure4])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure4]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape95=Rectangle -118, (123+(1*(20)*[Measure5])), 23, (1*(23+0*[Measure5])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure5]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape96=Rectangle -95, (123+(1*(20)*[Measure6])), 23, (1*(23+0*[Measure6])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure6]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape97=Rectangle -72, (123+(1*(20)*[Measure7])), 23, (1*(23+0*[Measure7])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure7]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape98=Rectangle -49, (123+(1*(20)*[Measure8])), 23, (1*(23+0*[Measure8])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure8]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape99=Rectangle -26, (123+(1*(20)*[Measure9])), 23, (1*(23+0*[Measure9])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure9]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape100=Rectangle -3, (123+(1*(20)*[Measure10])), 23, (1*(23+0*[Measure10])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure10]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape101=Rectangle 20, (123+(1*(20)*[Measure11])), 23, (1*(23+0*[Measure11])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure11]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape102=Rectangle 43, (123+(1*(20)*[Measure12])), 23, (1*(23+0*[Measure12])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure12]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape103=Rectangle 66, (123+(1*(20)*[Measure13])), 23, (1*(23+0*[Measure13])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure13]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape104=Rectangle 89, (123+(1*(20)*[Measure14])), 23, (1*(23+0*[Measure14])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure14]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape105=Rectangle 112, (123+(1*(20)*[Measure15])), 23, (1*(23+0*[Measure15])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure15]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape106=Rectangle 135, (123+(1*(20)*[Measure16])), 23, (1*(23+0*[Measure16])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure16]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape107=Rectangle 158, (123+(1*(20)*[Measure17])), 23, (1*(23+0*[Measure17])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure17]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape108=Rectangle 181, (123+(1*(20)*[Measure18])), 23, (1*(23+0*[Measure18])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure18]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape109=Rectangle 204, (123+(1*(20)*[Measure19])), 23, (1*(23+0*[Measure19])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure19]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape110=Rectangle 227, (123+(1*(20)*[Measure20])), 23, (1*(23+0*[Measure20])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure20]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape111=Rectangle 250, (123+(1*(20)*[Measure21])), 23, (1*(23+0*[Measure21])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure21]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape112=Rectangle 273, (123+(1*(20)*[Measure22])), 23, (1*(23+0*[Measure22])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure22]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape113=Rectangle 296, (123+(1*(20)*[Measure23])), 23, (1*(23+0*[Measure23])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure23]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape114=Rectangle 319, (123+(1*(20)*[Measure24])), 23, (1*(23+0*[Measure24])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure24]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape115=Rectangle 342, (123+(1*(20)*[Measure25])), 23, (1*(23+0*[Measure25])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure25]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape116=Rectangle 365, (123+(1*(20)*[Measure26])), 23, (1*(23+0*[Measure26])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure26]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape117=Rectangle 388, (123+(1*(20)*[Measure27])), 23, (1*(23+0*[Measure27])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure27]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape118=Rectangle 411, (123+(1*(20)*[Measure28])), 23, (1*(23+0*[Measure28])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure28]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape119=Rectangle 434, (123+(1*(20)*[Measure29])), 23, (1*(23+0*[Measure29])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure29]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
-Shape120=Rectangle 457, (123+(1*(20)*[Measure30])), 23, (1*(23+0*[Measure30])), 2 | Fill Color 0,0,0,(0 + (255 - 0)*[Measure30]) | StrokeWidth 0 | StrokeWidth 0 | Stroke Color 26,255,241
-
+Shape60=Rectangle 435, (370+(1*(40)*[Measure30])), 10, (1*(10+300*[Measure30])), 4 | Fill LinearGradient Gradient60  | StrokeWidth 0 | Stroke LinearGradient StrokeGradient
+Gradient60=90 | 254.3,254.3,254.3,0;0.0 | 254.3,254.3,254.3,0;0.5 | 254.3,254.3,254.3,150;1.0
+StrokeGradient=90 | 0,0,0,0;0.0 | 0,0,0,0;0.5 | 0,0,0,150;1.0

@@ -76,16 +76,20 @@ X=(20*[Set.S])
 Y=(20*[Set.S])R
 MeterStyle=Select:S
 
-[Screen]
+[Smooth]
+Meter=Image
+MeterStyle=Select:S
+
+[Subtle]
 Meter=Image
 MeterStyle=Select:S
 
 [Tech]
 Meter=Image
-MeterStyle=Select:S
-
-[Smooth]
-Meter=Image
 X=(20*[Set.S])
 Y=(20*[Set.S])R
+MeterStyle=Select:S
+
+[Screen]
+Meter=Image
 MeterStyle=Select:S

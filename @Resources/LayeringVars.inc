@@ -1,9 +1,10 @@
 [Variables]
-ImagePath=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Layering.png
-ImageName=Layering
+ImagePath=#SKINSPATH#ModularVisualizer\@Resources\UserImages\GirlCoffeeOverlay.png
+ImageName=GirlCoffeeOverlay
 X=-1
 Y=0
 W=1921
 H=1080
-Automated=0
+Automated=1
 MonitorIndex=1
+PreserveAspectRatio=0

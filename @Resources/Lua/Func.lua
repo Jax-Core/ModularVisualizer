@@ -18,7 +18,7 @@ function checkMedia()
     if havePlaying == true and activated == false then
         SKIN:Bang('[!ActivateConfig "ModularVisualizer\\Main"]')
         activated = true
-    else
+    elseif havePlaying == false then
         SKIN:Bang('[!DeactivateConfig "ModularVisualizer\\Main"]')
         activated = false
     end

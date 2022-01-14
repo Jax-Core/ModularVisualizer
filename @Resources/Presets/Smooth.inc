@@ -3,7 +3,7 @@ VisualizerType=Round
 ImageUnderlay=0
 [@Resources\Vars\Round.inc]
 Bands=240
-Height=300
+Height=200
 BarWidth=10
 Radius=60
 StartAngle=315
@@ -33,7 +33,7 @@ StrokeMinAlpha=0
 MaxSensitivity=50
 MinSensitivity=3
 Attack=0
-Decay=0
+Decay=50
 BlurRadius=10
 Channel=Auto
 WindowFunction=Kaiser

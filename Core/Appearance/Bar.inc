@@ -37,6 +37,9 @@ DynamicVariables=1
 Hidden=#ImageUnderlay#
 Container=ContentContainer
 
+[Set.Color:S]
+Leftmouseupaction=["#@#Addons\RainRGB4.exe" "VarName=#CURRENTSECTION#" "FileName=#Sec.SaveLocation#" "RefreshConfig=#CURRENTCONFIG#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"]
+
 [A1]
 Meter=Shape
 X=r

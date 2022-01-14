@@ -2,6 +2,7 @@
 Sec.SaveLocation=#SKINSPATH##Skin.Name#\@Resources\LayeringVars.inc
 LayeringCheckStatus=0
 @includeVars=#SKINSPATH##Skin.Name#\@Resources\LayeringVars.inc
+Sec.Generate=1
 
 ; ---------------------------------------------------------------------------- ;
 ;                                   Fucntions                                  ;
@@ -36,7 +37,7 @@ Command1=[!WriteKeyvalue Variables ImagePath "$Path$" "#Sec.SaveLocatioN#"][!Wri
 ; ---------------------------------------------------------------------------- ;
 
 [Header]
-Text="3D effect layering"
+Text="3D overlay"
 
 ; --------------------------------- Section1 --------------------------------- ;
 
@@ -95,6 +96,13 @@ Meter=String
 Text="Layering image"
 X=(35*[Set.S])
 Y=(60*[Set.S])R
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:8]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option08]
+Meter=String
+Text="Image fit"
 MeterStyle=Set.String:S | Set.OptionName:S
 [Set.Div:1]
 Meter=Shape
@@ -159,6 +167,30 @@ LeaveColor=#Set.Accent_Color#,50
 Meter=String
 Text=#ImageName#
 MeterStyle=Set.String:S | Set.Value:S
+
+[PreserveAspectRatio:]
+Meter=Shape
+MeterStyle=Set.Pick3:S
+Shape2=Rectangle (100*[Set.S]*([&Func:returnBool('PreserveAspectRatio', '1')]+[&Func:returnBool('PreserveAspectRatio', '2')]*2)),0,(300/3*[Set.S]),(30*[Set.S]),(7*[Set.S]) | Fill Color #Set.Text_Color# | StrokeWidth 0
+Y=([Option08:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[PreserveAspectRatio:0]
+Meter=String
+Text="Stretch to fit"
+FontColor=[&Func:returnBool('PreserveAspectRatio', '0', '#Set.Pri_color#', '#Set.Text_Color#')]
+MeterStyle=Set.String:S | Set.PickOption3_0:S
+Leftmouseupaction=[!WriteKeyValue Variables PreserveAspectRatio "0" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
+[PreserveAspectRatio:1]
+Meter=String
+Text="Fit"
+FontColor=[&Func:returnBool('PreserveAspectRatio', '1', '#Set.Pri_color#', '#Set.Text_Color#')]
+MeterStyle=Set.String:S | Set.PickOption3_1:S
+Leftmouseupaction=[!WriteKeyValue Variables PreserveAspectRatio "1" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
+[PreserveAspectRatio:2]
+Meter=String
+Text="Fill"
+FontColor=[&Func:returnBool('PreserveAspectRatio', '2', '#Set.Pri_color#', '#Set.Text_Color#')]
+MeterStyle=Set.String:S | Set.PickOption3_2:S
+Leftmouseupaction=[!WriteKeyValue Variables PreserveAspectRatio "2" "#Sec.SaveLocation#"][!WriteKeyValue Variables Sec.Generate 1 "#SKINSPATH##SKin.Name#\Core\#Skin.Set_Page#.inc"][!Refresh]
 
 [Automated]
 Meter=Shape

@@ -2,9 +2,9 @@
 FilePath=C:\Users\enhan\Documents\Rainmeter\Skins\ModularVisualizer\@Resources\Vars\Colors.inc
 ConfigName=#JaxCore\Main
 SectionName=Variables
-OptionName=ColorA1
+OptionName=ColorA2
 Format=rgb
-PreviousColor=22,255,23
+PreviousColor=108,230,255
 ScriptMeasure=CPUI
 Theme=Core
 Animations=2
