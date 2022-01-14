@@ -11,12 +11,12 @@ Hidden=1
 
 [Title]
 Meter=String
-Text="Change log"
+Text="Welcome to mVis"
 MeterStyle=Sec.String:S | Style.Title:S
 
 [Description.1]
 Meter=String
-Text="- NEW! Blur variant with rounded corners!"
+Text="Start by heading over to the layout page and select a pre-built style! Then customize it with the other setting tabs. A tab called render will show up when you select the bar style, which allows you to further modify the look of it."
 MeterStyle=Sec.String:S | Style.Description:S
 ; [Link.1]
 ; Meter=String
@@ -24,20 +24,20 @@ MeterStyle=Sec.String:S | Style.Description:S
 ; LeftMouseUpAction=["https://jax-core.github.io/"]
 ; MeterStyle=Sec.String:S | Style.Link:S
 
-[Description.2]
-Meter=String
-Text="- NEW! Scrolling text in side variant (first in the list)"
-MeterStyle=Sec.String:S | Style.Description:S
+; [Description.2]
+; Meter=String
+; Text="- NEW! Scrolling text in side variant (first in the list)"
+; MeterStyle=Sec.String:S | Style.Description:S
 
-[Description.3]
-Meter=String
-Text="- Updated blur variant for better blurring effect"
-MeterStyle=Sec.String:S | Style.Description:S
+; [Description.3]
+; Meter=String
+; Text="- Updated blur variant for better blurring effect"
+; MeterStyle=Sec.String:S | Style.Description:S
 
-[Description.4]
-Meter=String
-Text="- Fixed big circ progress"
-MeterStyle=Sec.String:S | Style.Description:S
+; [Description.4]
+; Meter=String
+; Text="- Fixed big circ progress"
+; MeterStyle=Sec.String:S | Style.Description:S
 
 ; [Description.5]
 ; Meter=String
