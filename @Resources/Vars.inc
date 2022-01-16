@@ -1,7 +1,7 @@
 [Variables]
 VisualizerType=Round
 ImageUnderlay=0
-ImageUnderlayName=C:\Users\enhan\Documents\Rainmeter\Skins\ModularVisualizer\@Resources\UserImages\Alena Aenami.jpg
+ImageUnderlayName=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Alena Aenami.jpg
 ImageUnderlayFileName=Alena Aenami
 ImageOverlay=0
 ImageOverlayName=
