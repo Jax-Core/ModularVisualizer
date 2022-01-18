@@ -38,7 +38,7 @@
     </li>
 
  <li>
-      <a href="#help">Help</a>
+      <a href="#help-and-credits">Help and Credits</a>
     </li>
   </ol>
 </details>
