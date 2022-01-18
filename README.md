@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Jax-Core/ModularVisualizer">
-    <img src="https://i.imgur.com/S7Puypy.png" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/S7Puypy.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">ModularVisualizer</h3>
