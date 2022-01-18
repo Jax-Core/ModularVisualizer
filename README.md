@@ -48,7 +48,7 @@
 
 ![ModularVisualizer](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/97bfd084-7ef0-496f-a835-3c41f482d38c/dey3pnf-5643d171-5aff-47a5-990a-1aa0ffb920dc.png)
 
-ModularVisualizer is a highly customizable audio visualizer with a plethora of pre-built layouts and over 40+ options to play around with with an additional 3D overlay module included to create layering effects. And, as one of the developers, deathcrafter, has stated, "it does much more than what the screenshot depicts".
+ModularVisualizer is a highly customizable audio visualizer that includes a plethora of pre-built layouts and over 40+ options to experiment with, as well as an additional 3D overlay module for creating layering effects. And, as one of the developers, deathcrafter, put it, **"It does a lot more than what the screenshot shows."**
 
 ## Features
 
