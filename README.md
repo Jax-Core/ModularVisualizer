@@ -80,7 +80,7 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 Now that you've installed and configured ModularVisualizer, let's take a look at some of its customization options!
 
-* Layouts: ModularVisualizer comes with eight custom layouts that you can further customize to your liking.
+* **Layouts:** ModularVisualizer comes with eight custom layouts that you can further customize to your liking.
 **Please keep in mind that each layout has a plethora of customization options that are beyond the scope of this guide, so explore them for yourself.**
 
 * Further in-depth customization can be done through the **Appearance**, **Render**, **3D overlay**, and **Audio** tabs. You won't be constrained by the skin's customization capabilities!
