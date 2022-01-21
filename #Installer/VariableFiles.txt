@@ -1,17 +1,4 @@
-@Resources\Vars.inc
 @Resources\Visualizer\Bar.inc
 @Resources\Visualizer\Round.inc
 @Resources\Visualizer\Vector.inc
-@Resources\Vars\Bar\MirrorX.inc
-@Resources\Vars\Bar\MirrorXY.inc
-@Resources\Vars\Bar\MirrorY.inc
-@Resources\Vars\Bar\Normal.inc
-@Resources\Vars\Bar\Reflection.inc
-@Resources\Vars\Vector\Gradient.inc
-@Resources\Vars\Vector\Solid.inc
-@Resources\Vars\AudioAnalyzerSettings.inc
-@Resources\Vars\Bar.inc
-@Resources\Vars\Colors.inc
-@Resources\Vars\Round.inc
-@Resources\Vars\Vector.inc
 @Resources\Measures\AudioMeasures.inc

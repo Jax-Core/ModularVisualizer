@@ -24,20 +24,26 @@ MeterStyle=Sec.String:S | Style.Description:S
 ; LeftMouseUpAction=["https://jax-core.github.io/"]
 ; MeterStyle=Sec.String:S | Style.Link:S
 
-; [Description.2]
-; Meter=String
-; Text="- NEW! Scrolling text in side variant (first in the list)"
-; MeterStyle=Sec.String:S | Style.Description:S
+[Title2]
+Meter=String
+y=(#SEt.P#)R
+Text="Change log v1.02"
+MeterStyle=Sec.String:S | Style.Title:S
 
-; [Description.3]
-; Meter=String
-; Text="- Updated blur variant for better blurring effect"
-; MeterStyle=Sec.String:S | Style.Description:S
+[Description.2]
+Meter=String
+Text="- Visualizers have the reset. Now everytime the widget updates, visualizer layouts are preserved."
+MeterStyle=Sec.String:S | Style.Description:S
 
-; [Description.4]
-; Meter=String
-; Text="- Fixed big circ progress"
-; MeterStyle=Sec.String:S | Style.Description:S
+[Description.3]
+Meter=String
+Text="- 3D overlay automatic position has been updated to preserve taskbar space"
+MeterStyle=Sec.String:S | Style.Description:S
+
+[Description.4]
+Meter=String
+Text=">>> Please report visualizer not working issues on the Discord server"
+MeterStyle=Sec.String:S | Style.Description:S
 
 ; [Description.5]
 ; Meter=String

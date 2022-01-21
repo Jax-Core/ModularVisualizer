@@ -1,5 +1,5 @@
 [Variables]
-VisualizerType=Round
+VisualizerType=Bar
 ImageUnderlay=0
 ImageUnderlayName=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Alena Aenami.jpg
 ImageUnderlayFileName=Alena Aenami
