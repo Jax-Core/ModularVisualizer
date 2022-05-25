@@ -1,7 +1,7 @@
 [@Resources\Vars.inc]
 VisualizerType=Vector
 ImageUnderlay=1
-ImageUnderlayName=#ROOTCONFIGPATH#@Resources\UserImages\Alena Aenami.jpg
+ImageUnderlayName=#SKINSPATH#ModularVisualizer\@Resources\UserImages\Alena Aenami.jpg
 ImageUnderlayFileName=Alena Aenami
 [@Resources\Vars\Vector.inc]
 LayerCount=3

@@ -1,7 +1,7 @@
 [@Resources\Vars.inc]
 VisualizerType=Bar
 ImageUnderlay=1
-ImageUnderlayName=#ROOTCONFIGPATH#@Resources\UserImages\10825696.jpg
+ImageUnderlayName=#SKINSPATH#ModularVisualizer\@Resources\UserImages\10825696.jpg
 ImageUnderlayFileName=Alena Aenami
 [@Resources\Vars\Bar.inc]
 BarType=MirrorY
