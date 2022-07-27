@@ -59,31 +59,27 @@ ModularVisualizer is a highly customizable audio visualizer that includes a plet
 * Audio detection and many more..
 
 
+
 ## Getting Started
 
 ### Prerequisites
+- **Windows 10** or above
+- For older systems, **Powershell v5.1 or newer** is required. Upgrade powershell **[here](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7.2#upgrading-existing-windows-powershell)**!
 
-- **Rainmeter v4.5 or newer.** Rainmeter can be installed by downloading the `.exe` file [from Rainmeter's official website.](https://www.rainmeter.net/)
-- **JaxCore v40005.** JaxCore can be installed by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
+### Installation 
+Run the following command in Powershell to get the latest version of JaxCore (`win + r` -> `powershell.exe` / search)
+```
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/Jax-Core/JaxCore/master/CoreInstaller.ps1" | Invoke-Expression
+```
+Alternatively you can get it on the [website](https://jax-core.github.io/)
 
-### Installation
+After you've proceeded through the welcome screen, select this widget (might have to scroll down) and click Install. It will appear in the library page after that.
 
-Assuming you successfully downloaded and installed Rainmeter as well as JaxCore, you can now proceed to install ModularVisualizer by following the steps below.
-
-1. Download and run the `.rmskin` file for **ModularVisualizer** from the official [JaxCore site](https://jax-core.github.io/) to install **ModularVisualizer**.
-2. Leave the installation settings at their defaults and click Install.
-3. When the installation is finished, a startup pop-up should appear. Follow through the pop-up to finish installing **ModularVisualizer**.
-
-* Note:  If you find that the JaxCore option is red on the startup pop-up, please press the red button and Core will be installed automatically. Perchance this fails, you can manually install Core by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
-
-### Customization
-
-Now that you've installed and configured ModularVisualizer, let's take a look at some of its customization options!
-
-* **Layouts:** ModularVisualizer comes with eight custom layouts that you can further customize to your liking.
-**Please keep in mind that each layout has a plethora of customization options that are beyond the scope of this guide, so explore them for yourself.**
-
-* Further in-depth customization can be done through the **Appearance**, **Render**, **3D overlay**, and **Audio** tabs. You won't be constrained by the skin's customization capabilities!
+### Setting Up
+Use the JaxCore menu to configure the visualizer's colors, style, fillings and more.
+FAQs can be found in the [documentation](https://jaxcore.gitbook.io/core/widgets/modularvisualizer)
+<br>
+<br>
 
 
 ## Help and Credits
