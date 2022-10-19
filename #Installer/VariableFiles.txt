@@ -1,4 +1,0 @@
-@Resources\Visualizer\Bar.inc
-@Resources\Visualizer\Round.inc
-@Resources\Visualizer\Vector.inc
-@Resources\Measures\AudioMeasures.inc
